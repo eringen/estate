@@ -7,7 +7,6 @@ fancier version of one tweet state manager
 ## usage and example
 
 ```javascript
-```
 const { state, subscribe } = createState({
   count: 0,
   user: { name: 'Dev' }
@@ -25,7 +24,6 @@ state.user.name = 'New Name';
 // Clean up when done
 unsubscribe();
 ```
-```
 
 Deep Nesting & Arrays
 
@@ -34,5 +32,4 @@ The proxy recursively wraps objects, so standard array methods and deep assignme
 ```javascript
 state.items = [];
 state.items.push('First Item'); // Notifies: items.0 = 'First Item'
-```
 ```

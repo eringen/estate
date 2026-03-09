@@ -1,0 +1,27 @@
+node_modules/
+jspm_packages/
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+.DS_Store
+Thumbs.db
+
+
+.visualstudio/
+.vscode/
+.idea/
+*.suo
+.ntvs
+*.njsproj
+*.sln
+*.sw?
+
+Build output
+
+dist/
+build/
+out/
